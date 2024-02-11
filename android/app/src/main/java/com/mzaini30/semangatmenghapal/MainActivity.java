@@ -1,4 +1,4 @@
-package com.user.app;
+package com.mzaini30.semangatmenghapal;
 
 import android.app.Activity;
 import android.content.Intent;
