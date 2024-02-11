@@ -17,6 +17,9 @@ dependencies:
   flowbite-svelte:
     specifier: ^0.44.21
     version: 0.44.21(svelte@4.2.8)
+  kumpulan-tools:
+    specifier: ^1.0.0
+    version: 1.0.0
   md5:
     specifier: ^2.3.0
     version: 2.3.0
@@ -2337,6 +2340,10 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
     dev: true
+
+  /kumpulan-tools@1.0.0:
+    resolution: {integrity: sha512-8RzuLboxhTjMBjp7TbnqOnDYmV4ZATGZof37ccgREsEcg0O6ywc+nC9yyKhRKpx8jyo3+gVWusfAdN287IxoaA==}
+    dev: false
 
   /lilconfig@2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}

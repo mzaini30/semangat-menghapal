@@ -2,8 +2,11 @@
   import Router from "svelte-spa-router";
   import Gerbang from "./kunci/src/Gerbang.svelte";
   import data from "../android.json";
+  import Beranda from "./Beranda.svelte";
 
-  const routes = {};
+  const routes = {
+    '/': Beranda
+  };
 </script>
 
 <Gerbang namaAplikasi={data.title}>
