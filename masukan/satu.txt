@@ -1,0 +1,17 @@
+Harusnya aplikasi seperti ini dilengkapi dg al qurannya.. sehingga bisa dipake langsung buat menghafal atau murajaah (tidak hanya mencatat progress)
+Baiknya juga tidak hanya perhalaman, namun juga ada fitur pencataan per ayat, lalu ada info ttg kualitas hafalan, ada juga info apakah hafalan tsb udah di setor atau belum, dicatat juga waktu ketika selesai menghafal suatu bagian (bisa satu laman atau beberapa ayat), info kapan terakhir murojaah suatu bagian, berapa kali murajaah suatu bagian dst, termasuk catatan atas suatu bagian, misalnya ada ayat yang sulit dihafal, tips trik menghafal suatu ayat, atau catatan lain..
+Harapanya ada dashboard yang informatif sehingga bisa memicu semangat.
+Misalnya
+- persentase jumlah ayat, halaman, surat yg telah di hafal
+- colouring pencapaian terkaiit dg kualitas hafalan, jumlah murajaah
+- preview catatan
+- progress penambahan hafalan dari sudut pandang waktu
+- tingkat murajaah (tentukan targetnya per hari) nanti dibuat judge terkait semangat on fire atau melempem
+- dst
+Semua bisa di view dari sudut pandang per ayat, halaman, juz, surat dan total..
+Jika qurannya masuk ke aplikasi maka log aktifitasnya bisa tercatat, misal ketika murajaah, nambah hafalan, mencatat kejadian dst..
+Lengkapi juga di aplikasi qurannya.. terjemah quran, link audio bacaan ayat itu,
+Lengkapi juga dg kumpulan motivasi2 baik ayat hadits, perkataan ulama dll utk tetap semangat.. yang akan muncul random tiap hari atau tiap buka aplikasi..
+Ada fitur komunitas.. yg terhubung dg orang lain yang mau join.. dan belajar bersama.. ada fasilitas buat bikin anonymous supaya lebih terjaga keikhlasannya .. ada perhitungan poin setiap aktofitas atau pencapaian utk gamifikasi
+Ada fasilitas yg bisa menghubungkan ke ustadz atau guru.. sehingga mereka bisa menilai kita, bisa memberikan rating suatu setoran, bacaan dsb.
+Maaf kepanjangan..
