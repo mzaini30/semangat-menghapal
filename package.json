@@ -19,6 +19,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "@vitejs/plugin-legacy": "^5.2.0",
+    "alasql": "^4.2.7",
     "flowbite": "^2.2.1",
     "flowbite-svelte": "^0.44.21",
     "kumpulan-tools": "^1.0.0",
