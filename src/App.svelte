@@ -10,6 +10,8 @@
   alasql(
     /* sql */ `CREATE TABLE IF NOT EXISTS data.hapalan (id text, hapalan INTEGER)`
   );
+
+  // ini insert kalau data kosong aja ya. salah logicnya ini
   alasql(
     /* sql */ `INSERT INTO data.hapalan VALUES ('${crypto.randomUUID()}', 0)`
   );
