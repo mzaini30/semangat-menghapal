@@ -6,24 +6,30 @@
   import alasql from "alasql";
 
   alasql(/* sql */ `create localStorage database if not exists data;
-  attach localStorage database data`);
+  attach localStorage database data;
+  use data;
+  `);
+  // hapalan: id, hapalan
   alasql(
-    /* sql */ `CREATE TABLE IF NOT EXISTS data.hapalan (id text, hapalan INTEGER)`
+    /* sql */ `CREATE TABLE IF NOT EXISTS hapalan (id text, hapalan INTEGER)`
   );
 
   // ini insert kalau data kosong aja ya. salah logicnya ini
-  alasql(
-    /* sql */ `INSERT INTO data.hapalan VALUES ('${crypto.randomUUID()}', 0)`
-  );
+  let banyakBaris = alasql(/* sql */ `select count(*) from hapalan`)[0].count;
+  if (banyakBaris == 0) {
+    alasql(
+      /* sql */ `INSERT INTO hapalan VALUES ('${crypto.randomUUID()}', 0)`
+    );
+  }
 
   if (localStorage.database) {
-    let id = alasql(/* sql */ `select id from data.hapalan `)[0].id;
+    let id = alasql(/* sql */ `select id from hapalan `)[0].id;
 
     let hapalanDatabaseVersiLawas = JSON.parse(localStorage.database).hapalan[0]
       .hapalan;
 
     alasql(
-      /* sql */ `update data.hapalan set hapalan = ${hapalanDatabaseVersiLawas} where id = '${id}' `
+      /* sql */ `update hapalan set hapalan = ${hapalanDatabaseVersiLawas} where id = '${id}' `
     );
   }
 
